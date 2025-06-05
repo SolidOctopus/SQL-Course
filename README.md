@@ -48,8 +48,7 @@ ORDER BY
 LIMIT 10;
 ```
 ![Top Paying Roles](/assets/1_top_paying_jobs.png)
-
-###  Bar graph visualizing the salary for the top 10 salaries for data analysts
+*Bar graph visualizing the salary for the top 10 salaries for data analysts*
 
 ### Insight:
 - Salary Range: The top-paying remote Data Analyst roles offer $184,000 to $650,000, with the highest salary at Mantys.
@@ -93,8 +92,7 @@ ORDER BY
 top_paying_jobs.salary_year_avg DESC;
 ```
 ![Count of Skills](/assets/2_count_of_skills.png)
-
-### Bar graph visualizing the count of skills for the top 10 paying jobs for data analysts
+*Bar graph visualizing the count of skills for the top 10 paying jobs for data analysts*
 
 ### Insight:
 - "SQL + Python + Tableau" is the baseline for top-tier Data Analyst roles.
@@ -123,8 +121,7 @@ ORDER BY
 LIMIT 5 
 ```
 ![Skill Demand](/assets/3_Skill_Demand.png)
-
-### Pie chart showing the % distribution of the top 5 skills
+*Pie chart showing the % distribution of the top 5 skills*
 
 ### Insights:
 
@@ -172,8 +169,7 @@ ORDER BY
 LIMIT 25;
 ```
 ![Top-Paying Skills](/assets/4_Top_Paying_Skills.png)
-
-### Combo graph visualizing the top paying skills average salaries vs their demand
+*Combo graph visualizing the top paying skills average salaries vs their demand*
 
 ### Insights:
 
@@ -222,7 +218,7 @@ LIMIT 25
 ```
 ![Top-Paying Skills](/assets/5_Most_optimal_skills.png)
 
-### Table of the most optimal skills for data analyst sorted by salary
+*Table of the most optimal skills for data analyst sorted by salary*
 
 ### Insights:
 
