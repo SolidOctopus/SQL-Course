@@ -48,6 +48,7 @@ ORDER BY
 LIMIT 10;
 ```
 ![Top Paying Roles](/assets/1_top_paying_jobs.png)
+
 *Bar graph visualizing the salary for the top 10 salaries for data analysts*
 
 ### Insight:
