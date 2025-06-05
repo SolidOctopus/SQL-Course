@@ -24,7 +24,9 @@ The data used in this project hails from [Luke Barousse's SQL course](https://gi
 -   **Git & GitgHub**: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboation and project tracking. 
 # The Analysis
 ### 1. Top Paying Data Analyst Jobs
-    To identfy the highest-paying roles, i filtered data anayst postions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field
+
+To identfy the highest-paying roles, i filtered data anayst postions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field
+
 ```sql
 SELECT
     job_postings_fact.job_id,
@@ -57,7 +59,8 @@ LIMIT 10;
 - Hybrid Dominance: 9/10 roles are full-time remote, highlighting flexibility as a standard for top-tier positions.
 
 ### 2. Skills for Top Paying Jobs
-    To understand what skills are required for the highest-paying roles, I joined the top 10 paying jobs (from Query 1) with skills data. This reveals which technical competencies are most valued by employers offering premium salaries.
+
+To understand what skills are required for the highest-paying roles, I joined the top 10 paying jobs (from Query 1) with skills data. This reveals which technical competencies are most valued by employers offering premium salaries.
 
 ```sql
 WITH top_paying_jobs AS (
@@ -102,7 +105,7 @@ top_paying_jobs.salary_year_avg DESC;
 
 ### 3. In-Demand Skills for Data Analysts
 
-    To identify the skills employers prioritize most, I analyzed all Data Analyst job postings and counted how frequently each skill appeared. This reveals the baseline competencies needed to remain competitive in the job market.
+To identify the skills employers prioritize most, I analyzed all Data Analyst job postings and counted how frequently each skill appeared. This reveals the baseline competencies needed to remain competitive in the job market.
 
 ```sql
 SELECT 
@@ -148,7 +151,7 @@ LIMIT 5
     - Divergence: Excel is highly demanded (#2) but rarely mentioned in top salaries, suggesting it’s baseline but not premium.
 
 ### 4. Skills Based on Salary
-    To uncover which skills command premium salaries, I analyzed remote Data Analyst roles with disclosed pay, calculating the average salary for each skill. This reveals niche competencies that significantly boost earning potential.
+To uncover which skills command premium salaries, I analyzed remote Data Analyst roles with disclosed pay, calculating the average salary for each skill. This reveals niche competencies that significantly boost earning potential.
 
 ```sql
 SELECT 
@@ -192,7 +195,7 @@ LIMIT 25;
 
 ### 4. Most Optimal Skills to Learn
 
-    To find skills that offer both job security and financial rewards, I analyzed remote Data Analyst roles, filtering for skills with >10 job postings and above-average salaries. This targets competencies that balance opportunity and earning potential.
+To find skills that offer both job security and financial rewards, I analyzed remote Data Analyst roles, filtering for skills with >10 job postings and above-average salaries. This targets competencies that balance opportunity and earning potential.
 
 ```sql
 SELECT
@@ -254,7 +257,7 @@ During this journey, I have significantly enhanced my SQL expertise by acquiring
 # Conclusions
 
 ## The Data Analyst Skills Hierarchy
-    Based on demand, salary, and strategic value, skills fall into three tiers:
+Based on demand, salary, and strategic value, skills fall into three tiers:
 
 | Tier	     | Skills | Why It Matters     |
 |----------|-----|------------|
